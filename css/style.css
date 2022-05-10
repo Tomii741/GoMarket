@@ -67,6 +67,7 @@
 .nav__li {
     display: inline-block;
     padding: 12px;
+    
 }
 
 .nav__li:hover > a {
@@ -78,6 +79,13 @@
     text-decoration: none;
 }
 
+.nav__li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+    color: #fff;
+}
+
 .footer__li a {
     color: #fff;
     text-decoration: none;
@@ -85,6 +93,12 @@
 
 .footer__li:hover > a {
     color: #E04D01;
+}
+
+.footer__li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
 }
 
 /* Estilos de la pagina de Productos */
@@ -107,4 +121,28 @@
 
 .prod-main img {
     padding: 20px;
+}
+
+/* Estilos de la pagina de Sucursales */
+
+.sucur-container {
+    background-color: #FF7700;
+    
+}
+
+.sucur-item {
+    padding: 10px;
+}
+
+.sucur-main {
+    padding: 40px;
+}
+
+.sucur-main p, h2 {
+    margin-top: 10px;
+}
+
+.sucur-main iframe {
+    width: 100%;
+    max-width: 620px;
 }
