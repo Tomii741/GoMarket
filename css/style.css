@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+	font-weight: 100;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "main main aside"
+    "main main aside"
+    "main main aside"
+    "footer footer footer";
+    grid-template-rows: repeat(auto-fill, 1fr);
+    height: 100%;
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+.grid-header {
+    grid-area: header;
+    background-color: #2A2550;
+}
+
+.grid-header h1 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.grid-main {
+    grid-area: main;
+    background-color: #E04D01;
+}
+
+.grid-main img {
+    width: 100%;
+}
+
+.grid-aside {
+    grid-area: aside;
+    background-color: #FF7700;
+}
+
+.grid-aside img {
+    width: 100%;
+}
+
+.grid-footer {
+    grid-area: footer;
+    background-color: #2A2550;
+    color: #fff;
+    text-align: center;
+}
+
+.nav {
+    background-color: #251D3A;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 12px;
+}
+
+.nav__li:hover > a {
+    color: #E04D01;
+}
+
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__li:hover > a {
+    color: #E04D01;
+}
+
+/* Estilos de la pagina de Productos */
+
+.prod-container {
+    background-color: #FF7700;
+}
+
+.prod-item {
+    padding: 10px;
+}
+
+.prod-item img {
+    width: 100%;
+}
+
+.prod-main {
+    padding: 40px;
+}
+
+.prod-main img {
+    padding: 20px;
+}
